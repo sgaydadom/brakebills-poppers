@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+ }
+
+
+body {
+  background-color: #efd3d7;
+  font-family: arial, sans-serif;
+  text-indent: 20px;
+ }
+
+.wrapper {
+  background-color: #ffffff;
+  width: 98%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 20px;
+
+}
+
+h1, h2 {
+  color: #2d6a4f;
+}
+
+blockquote {
+  border-left: 3px solid #003E1F;
+  padding-left: 12px;
+  background-color: #bad9a2
+
+}
+
+p.caption {
+  font-style: italic;
+}
+
+a {
+  color: #ffddd2;
+
+}
+
+img {
+  display: block;
+  max-width: 98%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+}
+
+header {
+  background-image: url("../images/oriental-pattern.png");
+  border-bottom: 2px solid #d2d2d2;
+  text-align: center;
+
+header.wrapper {
+  padding: 26px 20px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: monospace;
+  font-family: courier;
+  font-size: 70%;
+  border-top: 2px solid #d2d2d2;
+}
+
+article {
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+}
+
+/*for mobile phones */
+[class*="col-"] {
+  width: 100%;
+}
