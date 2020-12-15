@@ -4,7 +4,7 @@
 
 
 body {
-  background-color: #efd3d7;
+  background-color: #EABFF3;
   font-family: arial, sans-serif;
   text-indent: 20px;
  }
@@ -22,10 +22,14 @@ h1, h2 {
   color: #2d6a4f;
 }
 
+h3 {
+  color: #006400;
+}
+
 blockquote {
   border-left: 3px solid #003E1F;
   padding-left: 12px;
-  background-color: #bad9a2
+  background-color: #DBADE5;
 
 }
 
@@ -34,8 +38,7 @@ p.caption {
 }
 
 a {
-  color: #ffddd2;
-
+  color: #530863;
 }
 
 img {
@@ -43,13 +46,13 @@ img {
   max-width: 98%;
   height: auto;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 10px;
   border-style: solid;
 }
 
 header {
   background-image: url("../images/oriental-pattern.png");
-  border-bottom: 2px solid #d2d2d2;
+  border-bottom: 2px solid #081c15;
   text-align: center;
 
 header.wrapper {
@@ -57,14 +60,15 @@ header.wrapper {
 }
 
 footer {
+  display:block;
+  border-top: 2px solid Black;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 40px;
-  font-family: monospace;
   font-family: courier;
-  font-size: 70%;
-  border-top: 2px solid #d2d2d2;
+  font-size: 10%;
 }
+
+
 
 article {
   padding-top: 14px;
@@ -73,6 +77,31 @@ article {
 aside h2 {
   font-size: 1.4rem;
 }
+
+
+ul.a {
+  list-style-type: decimal;
+  font-family: sans-serif;
+  color: #530863;
+}
+/*can't seem to get the Link colors to change, despite multiple types of effort. Can't find any changes in the code from where it worked to where it didn't, except the color. And even attempting to change the color doesn't work*/
+a { color:#530863;
+text-decoration:none;
+}
+
+a:hover {
+color:#000000;
+text-decoration : none;
+}
+
+mark.DarkGreen {
+  color: #006400;
+  background: none;
+}
+
+
+
+
 
 /*for mobile phones */
 [class*="col-"] {
