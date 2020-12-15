@@ -4,6 +4,7 @@
 
 
 body {
+
   background-color: #dbcdf0;
   font-family: arial, sans-serif;
   text-indent: 20px;
@@ -30,11 +31,15 @@ h3 {
   font-family: serif;
 }
 
+h3 {
+  color: #006400;
+}
+
 blockquote {
   border-left: 3px solid #240046;
   padding-left: 12px;
-  background-color: #C2A9CB
 
+  background-color: #C2A9CB
 }
 
 p.caption {
@@ -43,8 +48,8 @@ p.caption {
 }
 
 a {
-  color: #5e2e9e;
 
+  color: #5e2e9e;
 }
 
 img {
@@ -59,6 +64,7 @@ img {
 header {
   background-image: url("../images/oriental-pattern.png");
   border-bottom: 2px solid #1b4332;
+  border-bottom: 2px solid #081c15;
   text-align: center;
 }
 /*the oriental pattern is a reference to the Mosaic that it both part of Fillory and Further,
@@ -69,15 +75,22 @@ header.wrapper {
 }
 
 footer {
+  display:block;
+  border-top: 2px solid Black;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: courier;
   font-size: 12px;
   border-top: 2px solid #1b4332;
+  font-family: courier;
+  font-size: 10%;
 }
 /*used this font color for the header and footer border because green is a good contrast with lavender,
 and also helps darken the footer*/
+/*Also having trouble getting the footer padding-top to show up for some reason*/
+
+
 
 article {
   padding-top: 14px;
@@ -86,6 +99,7 @@ article {
 aside h2 {
   font-size: 1.4rem;
 }
+
 
 video {
   width:100%
@@ -144,6 +158,27 @@ hr.dashed {
 	-webkit-transform: scale(1.03, 1.03);
 	transform: scale(1.03, 1.03);
 }
+
+ul.a {
+  list-style-type: decimal;
+  font-family: sans-serif;
+  color: #530863;
+}
+a { color:#530863;
+text-decoration:none;
+}
+
+a:hover {
+color:#000000;
+text-decoration : none;
+}
+
+mark.DarkGreen {
+  color: #006400;
+  background: none;
+}
+
+
 
 
 
